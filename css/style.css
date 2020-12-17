@@ -1,0 +1,284 @@
+/* import Roboto Regular */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+html, body{
+  margin: 0%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+/* navigation css */
+
+.header-area .main-menu .navbar{
+  /* padding: 1rem 20rem; */
+  background-color: #F9D271;
+  opacity: 0.8;
+}
+
+.header-area .main-menu .navbar .nav-item .nav-link{
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14.5px;;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: black;
+}
+
+.header-area .main-menu .navbar-nav a:active{
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover{
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* banner area */
+
+.title-text{
+  font: normal bold 50px/ 72px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+}
+
+.main-area .site-banner{
+  background: url("../img/home.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.main-area .site-banner .site-title h3{
+  padding-top: 35%;
+  font-weight: 500;
+  color: black;
+}
+
+.main-area .site-banner .site-title h3::after{
+  content: " ";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+  color: black;
+}
+
+.main-area .site-banner .site-title h1{
+  font-size: 5rem;
+  color: black;
+  font-weight: 600;
+}
+
+.main-area .site-banner .site-title h4{
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+}
+
+.button{
+  padding: .8rem 2.2rem;
+  font: normal 500 16px/20px;
+  position: relative;
+  border: 5px solid;
+  /* border-radius: 10px; */
+  font-weight: 600;
+}
+
+.button.primary-button{
+  margin-right: 15px;
+}
+
+.button.primary-button, .button.secondary-button{
+  /* background: linear-gradient(90deg, #4458dc 0%, #854fee 100%); */
+  background: #b0f1f1;
+  background-clip: padding-box;
+  color: black;
+  border-color: white;
+  transition: background .6s ease;
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+.button.primary-button:hover, .button.secondary-button:hover{
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: #854fee;
+  border-color: #854fee;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+  position: absolute;
+  top: -2px; left: -2px;
+  bottom: -2px;  right: -2px;
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  content: ' ';
+  z-index: -1;
+  border-radius: 4px;
+}
+
+/* .button.secondary-button{
+  background: white;
+  background-clip: padding-box;
+  transition: background .6s ease;
+} */
+
+/* .button.secondary-button:hover{
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  color: whitesmoke;
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+} */
+
+
+
+/* about-area */
+
+.main-area .about-area{
+  /* height: 400px; */
+  padding: 4rem 5rem 0rem 5rem;
+}
+
+/* skills-area */
+
+.main-area .skills-area{
+  /* height: 600px; */
+  padding: 4rem 5rem 0rem 5rem;
+}
+
+.main-area .skills-area .skill-icons{
+  margin: 15px 15px 15px 15px;
+  width: 60px;
+  height: 60px;
+}
+
+.main-area .skills-area h3{
+  margin-top: 15px;
+  font-family: "Nunito", sans-serif;
+}
+
+/* projects-area */
+
+.main-area .project-area {
+  /* height: 700px; */
+  padding: 4rem 5rem 0rem 5rem;
+}
+
+.main-area .project-area h3{
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+/* follow area */
+
+.main-area .follow-area {
+  /* height: 700px; */
+  padding: 4rem 5rem 0rem 5rem;
+}
+
+.main-area .follow-area .buttons{
+  padding: 1rem 10rem;
+}
+
+.main-area .follow-area .follow .title .title-text{
+  text-align: center;
+}
+
+.main-area .follow-area .buttons .fa{
+  /* padding: 18px; */
+  font-size: 50px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.main-area .follow-area .buttons .fa:hover {
+  opacity: 0.7;
+}
+
+.main-area .follow-area .buttons .fas:hover {
+  opacity: 0.7;
+}
+
+.main-area .follow-area .buttons .fab:hover {
+  opacity: 0.7;
+}
+
+.main-area .follow-area .buttons .fa-facebook {
+  /* background: #3B5998; */
+  color: #3B5998;
+}
+
+.main-area .follow-area .buttons .fa-linkedin {
+  /* background: #007bb5; */
+  color: #007bb5;
+}
+
+.main-area .follow-area .buttons .fa-github {
+  /* background: black; */
+  color: black;
+  /* padding: 18px; */
+  font-size: 50px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  text-decoration: none;
+  margin: 40px 2px;
+  border-radius: 50%;
+}
+
+.main-area .follow-area .buttons .fa-at {
+  /* background: black; */
+  color: black;
+  /* padding: 18px; */
+  font-size: 50px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  text-decoration: none;
+  margin: 40px 2px;
+  border-radius: 50%;
+}
+
+.main-area .follow-area .buttons h4{
+  color: black;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+}
+
+.main-area .follow-area .buttons h4 a{
+  text-decoration: none;
+  color: black;
+}
+
+.main-area .follow-area .buttons p{
+  font-weight: 200;
+  font-family: "Nunito", sans-serif;
+}
+
+.main-area .follow-area .buttons p a{
+  text-decoration: none;
+  color: black;
+}
+
+/* footer area */
+
+footer{
+  text-align: center;
+  color: black;
+  background-color: #b0f1f1;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
