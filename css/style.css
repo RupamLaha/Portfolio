@@ -201,7 +201,17 @@ html, body{
 }
 
 .main-area .about-area .about-content p{
-  padding-top: 2rem;
+  padding-top: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-size: large;
+  color: grey;
+}
+
+.main-area .about-area .about-content img{
+  margin-top: 1rem;
+  height: 150px;
+  width: 150px;
+  border-radius: 350px;
 }
 
 /* skills-area */
@@ -232,24 +242,26 @@ html, body{
 }
 
 .main-area .skills-area .skill-icons{
-  margin: 15px 15px 15px 15px;
+  margin: 15px 15px 5px 15px;
   width: 60px;
   height: 60px;
 }
 
-.main-area .skills-area h3{
+.main-area .skills-area td{
   margin-top: 15px;
   font-family: "Nunito", sans-serif;
   font-size: medium;
   font-weight: 600;
+  color: grey;
 }
 
 @media only screen and (max-width: 500px){
-  .main-area .skills-area h3{
+  .main-area .skills-area td{
     margin-top: 15px;
     font-family: "Nunito", sans-serif;
     font-size: small;
-    font-weight: 600;
+    /* font-weight: 100; */
+    color: grey;
   }
 }
 
@@ -278,10 +290,17 @@ html, body{
 .main-area .project-area h3{
   font-family: "Nunito", sans-serif;
   font-weight: 700;
+  font-size: 35px;
 }
 
 .main-area .project-area .projects img{
   width: 90%;
+}
+
+.main-area .project-area .projects p{
+  color: gray;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
 }
 
 .main-area .project-area .projects .first, .main-area .project-area .projects .second, .main-area .project-area .projects .third{
@@ -292,6 +311,29 @@ html, body{
   .main-area .project-area .projects .first h3, .main-area .project-area .projects .second h3, .main-area .project-area .projects .third h3{
     padding-top: 1rem;
   }
+}
+
+.main-area .project-area .projects .project-links a{
+  text-decoration: none;
+  background-size: auto;
+  background-color: white;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  /* border: 2px; */
+}
+
+.main-area .project-area .projects .project-links a:hover{
+  /* text-decoration: none;
+  background-size: auto;
+  background-color: grey;
+  padding: 10px;
+  color: white;
+  border-radius: 5px; */
+  background-color: black;
+  color: white;
 }
 
 /* follow area */
@@ -328,11 +370,24 @@ html, body{
 }
 }
 
+@media only screen and (max-width: 768px) {
+  .main-area .follow-area .buttons{
+    padding: 1rem 4rem;
+  }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .main-area .follow-area .buttons{
+      padding: 1rem 0rem;
+    }
+    }
+
 .main-area .follow-area .follow .title .title-text{
   text-align: center;
   font-size: 50px;
 }
 
+@media only screen and (min-width: 768px){
 .main-area .follow-area .buttons img{
   /* padding: 18px; */
   /* font-size: 5px; */
@@ -344,6 +399,21 @@ html, body{
   margin: 20px 10px;
   /* border-radius: 50%; */
 }
+}
+
+@media only screen and (max-width: 768px){
+  .main-area .follow-area .buttons img{
+    /* padding: 18px; */
+    /* font-size: 5px; */
+    /* text-align: center; */
+    width: 35px;
+    height: 35px;
+    /* padding: 10px; */
+    /* text-decoration: none; */
+    margin: 20px 10px;
+    /* border-radius: 50%; */
+  }
+  }
 
 .main-area .follow-area .buttons img:hover {
   opacity: 0.7;
