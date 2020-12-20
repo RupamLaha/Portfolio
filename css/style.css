@@ -15,7 +15,7 @@ html, body{
 
 .header-area .main-menu .navbar{
   /* padding: 1rem 20rem; */
-  background-color: #F9D271;
+  /* background-color: #F9D271; */
   opacity: 0.8;
 }
 
@@ -56,6 +56,12 @@ html, body{
   /* font: normal bold 50px/ 72px; */
   font-family: "Nunito", sans-serif;
   font-weight: 900;
+}
+
+.main-area .site-banner{
+  background: #a8c0ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media only screen and (min-width: 768px){
@@ -180,10 +186,16 @@ html, body{
 
 /* about-area */
 
+/* .main-area .about-area{
+  background: #bdc3c7;
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+background: linear-gradient(to right, #2c3e50, #bdc3c7);
+} */
+
 @media only screen and (min-width: 768px) {
   .main-area .about-area{
-    /* height: 400px; */
-    padding: 4rem 5rem 0rem 5rem;
+    /* height: 100vh; */
+    padding: 4rem 5rem 4rem 5rem;
     text-align: center;
   }
   }
@@ -191,7 +203,7 @@ html, body{
 @media only screen and (max-width: 768px) {
   .main-area .about-area {
     /* height: 700px; */
-    padding: 4rem 1rem 0rem 1rem;
+    padding: 4rem 1rem 4rem 1rem;
     text-align: center;
     /* padding: auto; */
   }
@@ -217,10 +229,16 @@ html, body{
 
 /* skills-area */
 
+/* .main-area .skills-area{
+  background: #2980B9; 
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA);  
+background: linear-gradient(to right, #FFFFFF, #6DD5FA); 
+} */
+
 @media only screen and (min-width: 768px) {
   .main-area .skills-area {
     /* height: 700px; */
-    padding: 4rem 5rem 0rem 5rem;
+    padding: 4rem 5rem 4rem 5rem;
     /* padding: auto; */
   }
   }
@@ -228,7 +246,7 @@ html, body{
 @media only screen and (max-width: 768px) {
   .main-area .skills-area {
     /* height: 700px; */
-    padding: 4rem 0.5rem 0rem 0.5rem;
+    padding: 4rem 0.5rem 4rem 0.5rem;
     /* padding: auto; */
   }
   }
@@ -268,10 +286,16 @@ html, body{
 
 /* projects-area */
 
+.main-area .project-area{
+  background: #FF0099;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff009998, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 @media only screen and (min-width: 768px) {
   .main-area .project-area {
     /* height: 700px; */
-    padding: 4rem 5rem 0rem 5rem;
+    padding: 4rem 5rem 4rem 5rem;
     /* padding: auto; */
   }
   }
@@ -279,7 +303,7 @@ html, body{
   @media only screen and (max-width: 768px) {
     .main-area .project-area {
       /* height: 700px; */
-      padding: 4rem 1rem 0rem 1rem;
+      padding: 4rem 1rem 4rem 1rem;
       /* padding: auto; */
     }
     }
@@ -317,11 +341,11 @@ html, body{
 .main-area .project-area .projects .project-links a{
   text-decoration: none;
   background-size: auto;
-  background-color: white;
+  background-color: transparent;
   padding: 10px;
-  color: black;
+  color: white;
   border-radius: 5px;
-  border-color: black;
+  border-color: white;
   border-style: solid;
   /* border: 2px; */
 }
