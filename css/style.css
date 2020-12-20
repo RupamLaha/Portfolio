@@ -214,14 +214,36 @@ html, body{
 
 /* follow area */
 
+@media only screen and (max-width: 600px) {
+  .main-area .follow-area {
+    /* height: 700px; */
+    /* padding: 4rem 5rem 0rem 5rem; */
+    /* padding: 0rem; */
+  }
+
+  .main-area .follow-area .buttons{
+    padding: 0rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .main-area .follow-area {
+    /* height: 700px; */
+    /* padding: 4rem 5rem 0rem 5rem; */
+    /* padding: 0rem; */
+  }
+}
+
 .main-area .follow-area {
   /* height: 700px; */
   /* padding: 4rem 5rem 0rem 5rem; */
   padding: 3rem;
 }
 
+@media only screen and (min-width: 768px) {
 .main-area .follow-area .buttons{
   padding: 1rem 10rem;
+}
 }
 
 .main-area .follow-area .follow .title .title-text{
