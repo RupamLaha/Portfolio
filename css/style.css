@@ -64,7 +64,7 @@ html, body{
   background-position: center;
   background-size: cover;
   /* height: 600px; */
-  padding: 2rem 5rem 0rem 5rem;
+  padding: 2rem 5rem 3rem 5rem;
 }
 }
 
@@ -200,6 +200,10 @@ html, body{
   font-size: 50px;
 }
 
+.main-area .about-area .about-content p{
+  padding-top: 2rem;
+}
+
 /* skills-area */
 
 @media only screen and (min-width: 768px) {
@@ -218,6 +222,10 @@ html, body{
   }
   }
 
+.main-area .skills-area .first{
+  padding-top: 2rem;
+}
+
 .main-area .skills-area h1{
   font-size: 50px;
   text-align: center;
@@ -232,6 +240,17 @@ html, body{
 .main-area .skills-area h3{
   margin-top: 15px;
   font-family: "Nunito", sans-serif;
+  font-size: medium;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 500px){
+  .main-area .skills-area h3{
+    margin-top: 15px;
+    font-family: "Nunito", sans-serif;
+    font-size: small;
+    font-weight: 600;
+  }
 }
 
 /* projects-area */
@@ -263,6 +282,16 @@ html, body{
 
 .main-area .project-area .projects img{
   width: 90%;
+}
+
+.main-area .project-area .projects .first, .main-area .project-area .projects .second, .main-area .project-area .projects .third{
+  padding-top: 3rem;
+}
+
+@media only screen and (max-width: 992px){
+  .main-area .project-area .projects .first h3, .main-area .project-area .projects .second h3, .main-area .project-area .projects .third h3{
+    padding-top: 1rem;
+  }
 }
 
 /* follow area */
