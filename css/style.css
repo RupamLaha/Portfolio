@@ -64,7 +64,8 @@ html, body{
   background-position: center;
   background-size: cover;
   /* height: 600px; */
-  padding: 4rem 5rem 4rem 5rem;
+  padding: 3rem 5rem 3rem 5rem;
+  height: 100vh;
 }
 }
 
