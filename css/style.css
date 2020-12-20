@@ -217,7 +217,7 @@ html, body{
 @media only screen and (max-width: 768px) {
   .main-area .skills-area {
     /* height: 700px; */
-    padding: 4rem 1rem 0rem 1rem;
+    padding: 4rem 0.5rem 0rem 0.5rem;
     /* padding: auto; */
   }
   }
