@@ -63,7 +63,7 @@ html, body{
 background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
 background: linear-gradient(to right, #3f2b96, #a8c0ff);  */
 
-background: url("/img/back.png");
+background: url("back.png");
 
 background-attachment: fixed;
   background-position: center;
