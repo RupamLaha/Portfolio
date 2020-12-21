@@ -63,7 +63,7 @@ html, body{
 background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
 background: linear-gradient(to right, #3f2b96, #a8c0ff);  */
 
-background: url("img/back.png");
+background: url("/img/back.png");
 
 background-attachment: fixed;
   background-position: center;
@@ -102,7 +102,9 @@ background-attachment: fixed;
 .main-area .site-banner .site-title h3{
   padding-top: 7rem;
   font-weight: 500;
-  color: rgb(44, 43, 43);
+  /* color: rgb(44, 43, 43); */
+  color: white;
+  font-size: 2rem;
 }
 
 .main-area .site-banner .site-title p{
@@ -117,7 +119,7 @@ background-attachment: fixed;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 25px;
-  color: gray;
+  color: black;
 }
 
 /* .main-area .site-banner .site-title h3::after{
@@ -131,18 +133,47 @@ background-attachment: fixed;
   color: black;
 } */
 
+@media only screen and (min-width: 460px){
 .main-area .site-banner .site-title h1{
-  font-size: 5rem;
-  color: black;
-  font-weight: 600;
+  font-size: 6rem;
+  /* color: black; */
+  font-weight: 800;
+  color: white;
+}
 }
 
+@media only screen and (max-width: 460px){
+  .main-area .site-banner .site-title h1{
+    font-size: 5rem;
+    /* color: black; */
+    font-weight: 600;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 460px){
 .main-area .site-banner .site-title h4{
   /* font-size: 1.5rem; */
-  color: rgb(44, 43, 43);
-  font-weight: 500;
-  font-size: 30px;
+  /* color: rgb(44, 43, 43); */
+  font-weight: 700;
+  /* font-size: 30px; */
+  font-size: 2rem;
+  /* color: white; */
+  color:black;
 }
+}
+
+@media only screen and (max-width: 460px){
+  .main-area .site-banner .site-title h4{
+    /* font-size: 1.5rem; */
+    /* color: rgb(44, 43, 43); */
+    font-weight: 500;
+    /* font-size: 30px; */
+    font-size: 1.8rem;
+    /* color: white; */
+    color:black;
+  }
+  }
 
 .button{
   padding: .8rem 2.2rem;
@@ -153,25 +184,28 @@ background-attachment: fixed;
   font-weight: 600;
 }
 
-.button.primary-button{
-  margin-right: 15px;
+.button.primary-button,  .button.secondary-button{
+  margin: 15px;
 }
 
 .button.primary-button, .button.secondary-button{
   /* background: linear-gradient(90deg, #4458dc 0%, #854fee 100%); */
-  background: #b0f1f1;
+  /* background: #b0f1f1; */
   background-clip: padding-box;
-  color: black;
+  /* color: black; */
+  color: white;
   border-color: white;
   transition: background .6s ease;
   box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 }
 
 .button.primary-button:hover, .button.secondary-button:hover{
-  background: whitesmoke;
+  /* background: whitesmoke; */
   background-clip: padding-box;
-  color: #854fee;
-  border-color: #854fee;
+  /* color: #854fee; */
+  color: black;
+  /* border-color: #854fee; */
+  border-color: black;
 }
 
 .button.primary-button::after, .button.secondary-button::after{
