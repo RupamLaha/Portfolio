@@ -100,12 +100,24 @@ background-attachment: fixed;
   }
   }
 
+@media only screen and (min-width: 460px){
 .main-area .site-banner .site-title h3{
   padding-top: 7rem;
   font-weight: 500;
   /* color: rgb(44, 43, 43); */
   color: white;
   font-size: 2rem;
+}
+}
+
+@media only screen and (max-width: 460px){
+  .main-area .site-banner .site-title h3{
+    padding-top: 4rem;
+    font-weight: 500;
+    /* color: rgb(44, 43, 43); */
+    color: white;
+    font-size: 2rem;
+  }
 }
 
 .main-area .site-banner .site-title p{
