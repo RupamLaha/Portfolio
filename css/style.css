@@ -382,6 +382,18 @@ background: linear-gradient(to right, #ff009998, #FF0099);
   font-size: 35px;
 }
 
+@media only screen and (min-width: 991px){
+  .main-area .project-area .projects .second.small{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .main-area .project-area .projects .second.large{
+    display: none;
+  }
+}
+
 .main-area .project-area .projects img{
   width: 90%;
 }
