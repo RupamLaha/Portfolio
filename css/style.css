@@ -58,17 +58,22 @@ html, body{
   font-weight: 900;
 }
 
+@media only screen and (min-width: 768px){
 .main-area .site-banner{
   /* background: #a8c0ff;  
 background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
 background: linear-gradient(to right, #3f2b96, #a8c0ff);  */
 
-background-image: url("../img/back.png");
+/* background-image: url("../img/back.png");
 
 background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+
+background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+
+}
 }
 
 /* .main-area .site-banner .container{
@@ -97,6 +102,8 @@ background-attachment: fixed;
     /* height: 600px; */
     padding: 2rem 1rem 0rem 1rem;
     /* height: 100vh; */
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+
   }
   }
 
@@ -130,7 +137,7 @@ background-attachment: fixed;
 
 .main-area .site-banner .site-title p b{
   font-family: "Nunito", sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 25px;
   color: black;
 }
@@ -437,6 +444,10 @@ background: linear-gradient(to right, #ff009998, #FF0099);
   border-radius: 5px; */
   background-color: black;
   color: white;
+}
+
+.main-area .project-area .projects .third .project-links a{
+  display: none;
 }
 
 /* follow area */
