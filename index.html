@@ -1,3 +1,26 @@
+<?php
+
+//open file and read the data and store it in arr var...
+$arr = file("visitorCount.txt");
+
+//storing the value in count var...
+$count=$arr[0];
+
+//incrementing the value when new visitor visits...
+$count++;
+
+//opening the file to rewrite the visitor count...
+$f = fopen("visitorCount.txt", "w");
+
+//over writing the visitor count in the file...
+fputs($f,$count);
+
+//closing the file...
+fclose();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
